@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="/assets/img/dumbbell.png" type="image/png">
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+
+    <!--=============== UNICONS ===============-->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <script src="https://kit.fontawesome.com/a40b2ae152.js" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+    (function(){
+      emailjs.init("u75K7JN_vE1h94mK9");
+      })();
+    </script>
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <title>Owen Quentel</title>
+  </head>
+  <body>
+    <div id="preloader"></div>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="index.html" class="nav__logo">o<span>w</span>en</a>
+
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li><a href="#home" class="nav__link active-link">Home</a></li>
+
+            <li><a href="#about" class="nav__link">Moi</a></li>
+
+            <li><a href="#services" class="nav__link">Services</a></li>
+
+            <li><a href="#portfolio" class="nav__link">Projets</a></li>
+
+            <li><a href="#contact" class="nav__link">Contacts</a></li>
+          </ul>
+
+          <div class="nav__close" id="nav-close">
+            <i class="ui uil-times"></i>
+          </div>
+        </div>
+
+        <div class="nav__socials">
+          <a href="https://www.tiktok.com/@owenqetl" target="_blank" class="nav__social-link">
+            <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i>
+          </a>
+
+          <a href="mailto:owenqetl@gmail.com" target="_blank" class="nav__social-link">
+            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/owen-quentel-a12914234/" target="_blank" class="nav__social-link">
+            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+          </a>
+
+          <a href="https://instagram.com/owen_qetl?igshid=MzRlODBiNWFlZA==" target="_blank" class="nav__social-link">
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+          </a>
+        </div>
+
+        <div class="nav__btns">
+          <a href="#contact" class="nav__link-btn btn">Me contacter</a>
+
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="uil uil-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home" id="home">
+        <div class="home__container container grid">
+          <div class="home__content">
+            <span class="home__subtitle">Bienvenue</span>
+            <h1 class="home__title">
+              Hello! Moi, c'est <span>Owen Quentel</span>, étudiant MMI à Lannion.
+            </h1>
+          </div>
+
+          <img src="assets/img/1.jpg" alt="" class="home__img" />
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <div class="about__container container grid">
+          <img src="assets/img/1.jpg" alt="" class="about__img" />
+
+          <div class="about__content">
+            <h2 class="section__title">Qui suis-je</h2>
+
+            <p class="about__description">
+              Créatif et passionné par le domaine du digital, 
+              je mets mon expertise au service de projets 
+              innovants et visuellement captivants. 
+              Découvrez à travers mon portfolio, 
+              l'étendue de mes compétences et ma quête constante d'excellence.
+            </p>
+
+            <div class="tabs__btns">
+              <span class="tabs__btn tab__active" data-target="#skills"
+                >Compétences</span
+              >
+              <span class="tabs__btn" data-target="#experience"
+                >Experiences</span
+              >
+              <span class="tabs__btn" data-target="#education"
+                >Formations & certificats</span
+              >
+            </div>
+
+            <div class="tabs__content">
+              <div class="tabs__item tab__active" data-content id="skills">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Production Audiovisuel</span> - Photo/Video
+                    <span>Émerveiller l'auditoire et donner vie à la vision.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Design expérience d’utilisateur</span> - UI/UX
+                    <span>Ravir l'utilisateur et faire en sorte que ça fonctionne.</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Communication & Marketing</span>
+                    <span>Séduire le public et optimiser la stratégie.</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="experience">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>Chargé de communication</span> - Dialogues Morlaix
+                    <span>2023</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Projet entrepreneurial</span> - Wise Coaching (statut SNEE)
+                    <span>2022 - Actuellement</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Agent de communication</span> - Armor science
+                    <span>2021 - 2022</span>
+                  </p>
+                </div>
+              </div>
+
+              <div class="tabs__item" data-content id="education">
+                <div class="tabs__data grid">
+                  <p class="tabs__description">
+                    <span>MMI (Métiers du Multimédia et de l’internet)</span> - IUT de Lannion, Lannion
+                    <span>2021 - Actuellement</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Statut National Étudiant-Entrepreneur</span>
+                    <span>2022 - Actuellement </span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Baccalauréat Général (NSI/LLCE)</span> - Lycée Tristan Corbière, Morlaix
+                    <span>2021</span>
+                  </p>
+
+                  <p class="tabs__description">
+                    <span>Formation Création de site internet</span> - OpenClassrooms
+                    <span>2021</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SERVICES ===============-->
+      <section class="services section" id="services">
+        <h2 class="section__title">Mes Supers Services</h2>
+        <p class="section__description">
+        Découvrez ci-dessous mes services sur-mesure, 
+        conçus pour donner vie à vos visions et propulser vos 
+        projets vers de nouveaux sommets. 
+        </p>
+
+        <div class="services__container container grid">
+          <div class="services__item" data-aos="fade-up">
+            <i class="fa-solid fa-music fa-2xl" style="color: #00a6ff;"></i>
+
+            <h3 class="services__title">Production audiovisuel</h3>
+            <p class="services__description">
+              Créations audiovisuelles qui donnent vie à vos histoires, simplement et avec impact.
+            </p>
+          </div>
+          <div class="services__item" data-aos="fade-up">
+            <i class="fa-solid fa-image fa-2xl" style="color: #00a6ff;"></i>
+
+            <h3 class="services__title">Design</h3>
+            <p class="services__description">
+              Designs percutants qui allient esthétique et fonctionnalité, pour une expérience utilisateur inégalée.
+            </p>
+          </div>
+
+          <div class="services__item" data-aos="fade-up">
+            <i class="fa-solid fa-people-group fa-2xl" style="color: #00a6ff;"></i>
+
+            <h3 class="services__title">Communication</h3>
+            <p class="services__description">
+              Stratégies de communication affûtées pour connecter, engager et inspirer votre public cible.
+            </p>
+          </div>
+
+          <div class="services__item" data-aos="fade-up">
+            <i class="fa-solid fa-chart-simple fa-2xl" style="color: #00a6ff;"></i>
+
+            <h3 class="services__title">Marketing</h3>
+            <p class="services__description">
+              Solutions marketing innovantes pour dynamiser votre marque et maximiser votre impact sur le marché.
+            </p>
+          </div>
+
+          <div class="services__item" data-aos="fade-up">
+            <i class="fa-solid fa-object-group fa-2xl" style="color: #00a6ff;"></i>
+
+            <h3 class="services__title">UI/UX</h3>
+            <p class="services__description">
+              Conception UI/UX centrée sur l'utilisateur, pour des interfaces intuitives et des expériences mémorables.
+            </p>
+          </div>
+
+          <div class="services__item" data-aos="fade-up">
+            <i class="fa-solid fa-desktop fa-2xl" style="color: #00a6ff;"></i>
+
+            <h3 class="services__title">Développement web</h3>
+            <p class="services__description">
+              Création de sites web fluides et modernes, taillés pour l'excellence.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== PORTFOLIO ===============-->
+      <section class="portfolio section" id="portfolio">
+        <h2 class="section__title">Mes projets</h2>
+        <p class="section__description">
+          Plongez dans mes réalisations récentes, 
+          où innovation et créativité se rencontrent pour donner 
+          naissance à des projets uniques et captivants.
+        </p>
+
+        <div class="portfolio__container container grid">
+          <div class="portfolio__item" data-aos="fade-up">
+            <img
+              src="assets/img/portfolio-1.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Development</p>
+              <h3 class="portfolio__title">Web Design</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item">
+            <img
+              src="assets/img/portfolio-2.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Product Design</p>
+              <h3 class="portfolio__title">App Development</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item" data-aos="fade-up">
+            <img
+              src="assets/img/portfolio-3.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Application</p>
+              <h3 class="portfolio__title">Photoshop Design</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item" data-aos="fade-up">
+            <img
+              src="assets/img/portfolio-4.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Web Design</p>
+              <h3 class="portfolio__title">Website Design</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item" data-aos="fade-up">
+            <img
+              src="assets/img/portfolio-5.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Application</p>
+              <h3 class="portfolio__title">Web Application</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+
+          <div class="portfolio__item" data-aos="fade-up">
+            <img
+              src="assets/img/portfolio-6.jpg"
+              alt=""
+              class="portfolio__img"
+            />
+
+            <div class="portfolio__data">
+              <p class="portfolio__subtitle">Photoshop</p>
+              <h3 class="portfolio__title">Photo Editing</h3>
+              <p class="portfolio__description">
+                Lorem ipsum dolor sit amet, conse ctetur adipiscing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h2 class="section__title">Engagez-moi</h2>
+
+            <p class="contact__description">
+              Je suis disponible pour travailler. Contactez-moi par téléphone :
+              <a href="tel:+330612801948">0612801948</a> ou par e-mail :
+              <a href="mailto:owenqetl@gmail.com">owenqetl@gmail.com</a>
+            </p>
+
+            <form class="contact__form" id="contact-form">
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="name"
+                  placeholder="Votre nom *"
+                  class="contact__input"
+                  id="contact-name"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input
+                  type="email"
+                  name="email"
+                  placeholder="Votre e-mail *"
+                  class="contact__input"
+                  id="contact-email"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <input
+                  type="text"
+                  name="subject"
+                  placeholder="Sujet"
+                  class="contact__input"
+                  id="contact-subject"
+                />
+              </div>
+
+              <div class="contact__form-input">
+                <textarea
+                  name="message"
+                  id="contact-message"
+                  class="contact__input textarea"
+                  placeholder="Votre message *"
+                ></textarea>
+              </div>
+
+              <input type="submit" value="Envoyer" class="btn" />
+
+              <p class="error__message" id="error-message"></p>
+            </form>
+          </div>
+
+          <img src="assets/img/1.jpg" alt="" class="contact__img" />
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container grid">
+        <a href="index.html" class="footer__logo">o<span>w</span>en</a>
+
+        <div class="footer__socials">
+          <a href="https://www.tiktok.com/@owenqetl" target="_blank" class="nav__social-link">
+            <i class="fa-brands fa-tiktok" style="color: #ffffff;"></i>
+          </a>
+
+          <a href="mailto:owenqetl@gmail.com" target="_blank" class="nav__social-link">
+            <i class="fa-solid fa-envelope" style="color: #ffffff;"></i>
+          </a>
+
+          <a href="https://www.linkedin.com/in/owen-quentel-a12914234/" target="_blank" class="nav__social-link">
+            <i class="fa-brands fa-linkedin" style="color: #ffffff;"></i>
+          </a>
+
+          <a href="https://instagram.com/owen_qetl?igshid=MzRlODBiNWFlZA==" target="_blank" class="nav__social-link">
+            <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+          </a>
+        </div>
+
+        <p class="footer__copyright">&copy; 2023. Tous droits réservés.</p>
+      </div>
+    </footer>
+
+    <!--=============== SCROLL UP ===============-->
+    <a href="#" class="scrollup" id="scroll-up">
+      <i class="uil uil-angle-up scrollup__icon"></i>
+    </a>
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
